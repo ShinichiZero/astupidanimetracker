@@ -1,0 +1,34 @@
+{
+  "name": "astupidanimetracker",
+  "version": "1.0.0",
+  "description": "A stupid but functional CLI anime tracker — check what's airing today from your terminal.",
+  "main": "src/index.js",
+  "bin": {
+    "anime": "bin/anime.js"
+  },
+  "scripts": {
+    "start": "node bin/anime.js",
+    "test": "node --test test/cli.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShinichiZero/astupidanimetracker.git"
+  },
+  "keywords": [
+    "anime",
+    "cli",
+    "tracker",
+    "seasonal"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShinichiZero/astupidanimetracker/issues"
+  },
+  "homepage": "https://github.com/ShinichiZero/astupidanimetracker#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "commander": "^14.0.3"
+  }
+}
